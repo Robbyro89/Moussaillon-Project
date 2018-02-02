@@ -1,0 +1,103 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* mixins, variables, etc. */
+
+$gray-medium-light: #eaeaea;
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #00008B;
+}
+
+span {
+  color: black;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: white;
+}
+
+.jumbotron {
+height: 200px;
+}
+
+.bienvenue {
+  color: black;
+  padding: 0.7cm;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+/* head */
+head {
+ font-size: 3em;
+ letter-spacing: -1px;
+ margin-bottom: 20px;
+ text-align: center;
+ color: #0000CD;
+ padding: none;
+}
+
+/* header */
+
+#logo {
+  float: left;
+  margin-left: -70px;
+  font-size: 1.7em;
+  color: #00FFFF;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  padding-top: 9px;
+  font-weight: bold;
+  &:hover
+  {
+    color: #0000FF;
+    text-decoration: none;
+  }
+}
+
+#logo1 {
+  float: left;
+  padding-top: 45px;
+}
+
+/* footer */
+
+.navbar-fixed-bottom {
+  background-color: #000000;
+  font-size: 1em;
+  height: 20px;
+  color: #00FFFF;
+}
+
+.navbar-brand {
+  color: #00FFFF;
+  &:hover
+  {
+    color: #0000FF;
+    text-decoration: none;
+  }
+}
+
+#navbarCollapse {
+  float: right;
+  padding-right: 20px;
+}
